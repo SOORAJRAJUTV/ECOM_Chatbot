@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite or local databases
+*.sqlite3
+*.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Coverage / test reports
+htmlcov/
+.coverage
+coverage.xml
+.pytest_cache/
+.cache/
+
+# Node modules (if frontend exists)
+node_modules/
+
+# Uvicorn / FastAPI related
+*.pid
