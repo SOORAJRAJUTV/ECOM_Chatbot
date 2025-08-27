@@ -19,26 +19,3 @@ class CreateOrder(BaseModel):
     payment_method: str
     items: List[CreateOrderItem]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# from pydantic import BaseModel
-
-# class ChatRequest(BaseModel):
-#     question: str
